@@ -13,7 +13,6 @@
   --color-bg: #fffef0;
   --color-accent: #2600ff;
   --color-text: #000000;
-  --color-subtext: #64625b;
   --color-button-hover: #e5db9e;
 }
 
@@ -21,7 +20,6 @@
   --color-bg: #282828;
   --color-accent: #f36b3b;
   --color-text: #ffffff;
-  --color--subtext: #64625b;
   --color-button-hover: #514915;
 }
 
@@ -30,7 +28,7 @@ body {
   text-wrap: balance;
   background-color: var(--color-bg);
   color: var(--color-text);
-  margin: 24px 32px;
+  margin: 16px;
 }
 
 a {
@@ -39,6 +37,21 @@ a {
 
 button {
   font-family: "Cormorant Garamond", serif;
+}
+
+.main {
+  margin: 48px auto;
+}
+
+@media screen and (min-width: 720px) {
+  body {
+    margin: 24px 32px;
+  }
+
+  .main {
+    display: grid;
+    place-items: center;
+  }
 }
 
 /* style HEADER */
@@ -145,8 +158,7 @@ button {
 }
 
 .header__subtitle {
-  font-size: 13px;
-  margin-top: -3px;
+  font-size: 14px;
 }
 
 .header__author {

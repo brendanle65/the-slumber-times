@@ -6,8 +6,12 @@ if (localStorage.getItem("theme") === "dark") {
   document.body.classList.add("--dark-theme");
 }
 
-document.querySelector("#theme-toggle-button").addEventListener("click", () => {
+const toggleThemeButton = document.querySelector("#theme-toggle-button");
+toggleThemeButton.removeEventListener("click", handleToggleTheme);
+toggleThemeButton.addEventListener("click", handleToggleTheme);
+
+function handleToggleTheme() {
   const theme = localStorage.getItem("theme") === "dark" ? "light" : "dark";
   localStorage.setItem("theme", theme);
   document.body.classList.toggle("--dark-theme");
-});
+}
