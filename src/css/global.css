@@ -29,6 +29,9 @@ body {
   background-color: var(--color-bg);
   color: var(--color-text);
   margin: 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 50px);
 }
 
 a {
@@ -193,6 +196,7 @@ button {
 .footer {
   font-size: 13px;
   text-align: center;
+  margin-top: auto;
 }
 
 .footer__socials {

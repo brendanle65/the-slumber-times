@@ -1,0 +1,46 @@
+/* style ARTICLE */
+.content {
+  width: 350px;
+  font-size: 16px;
+  line-height: 125%;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 110%;
+}
+
+.poem__stanza {
+  margin: 0;
+}
+
+.poem__stanza + .poem__stanza {
+  margin: 18px 0;
+}
+
+.poem__line {
+  display: block;
+  text-indent: -1em;
+  padding-left: 1em;
+}
+
+.poem__line--right {
+  text-align: right;
+}
+
+.poem__dinkus {
+  margin-top: 28px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.poem__dinkus::after {
+  content: "* * *";
+}
+
+.--ghost {
+  visibility: hidden;
+}
+
+/*todo: fix spacing*/
