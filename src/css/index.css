@@ -59,6 +59,10 @@
   font-style: normal;
 }
 
+.posts__listing:hover .posts__title {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 720px) {
   .posts__header,
   .posts__list,
