@@ -189,6 +189,23 @@ button {
   }
 }
 
+/* style FOOTER */
+.footer {
+  font-size: 13px;
+  text-align: center;
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.footer__link {
+  font-size: 13px;
+  font-weight: 500;
+}
+
 /* style TEXTURE */
 .texture {
   position: fixed;
