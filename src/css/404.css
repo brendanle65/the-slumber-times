@@ -1,0 +1,9 @@
+/* style BUTTON */
+.history__button {
+  text-decoration: underline;
+}
+
+.history__button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}

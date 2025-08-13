@@ -43,4 +43,8 @@
   visibility: hidden;
 }
 
-/*todo: fix spacing*/
+.poem__stanza--justify {
+  text-align: justify;
+  hyphens: auto;
+  text-justify: inter-word;
+}
