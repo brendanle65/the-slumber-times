@@ -15,6 +15,12 @@
   margin: 0;
 }
 
+.poem__note {
+  font-style: italic;
+  margin-bottom: 18px;
+  margin-top: -12px;
+}
+
 .poem__stanza + .poem__stanza {
   margin: 18px 0;
 }
@@ -23,6 +29,16 @@
   display: block;
   text-indent: -1em;
   padding-left: 1em;
+}
+
+.poem__line--collapse-vertical {
+  line-height: 100%;
+}
+
+.poem__line--indent {
+  display: block;
+  text-indent: -1em;
+  padding-left: 2em;
 }
 
 .poem__line--right {
@@ -41,6 +57,10 @@
 
 .--ghost {
   visibility: hidden;
+}
+
+.--small-caps {
+  font-variant: small-caps;
 }
 
 .poem__stanza--justify {
